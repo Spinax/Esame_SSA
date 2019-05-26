@@ -1,3 +1,6 @@
+%Studio la stabilita' del sistema
+zeri = roots([4 3.698e-32 401])
+poli = pole(CompleteSystem)
 %Studio la controllabilita' del sistema
 %Definisco la matrice di controllabilita'
 CtrbMatrix = ctrb(CompleteSystem);
